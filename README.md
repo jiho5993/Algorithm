@@ -3,7 +3,7 @@
 ## TODO
 ### GOLD
 - [X] Dijkstra (다익스트라)
-- [ ] Disjoint Set | Union-Find (서로소집합)
+- [X] Disjoint Set | Union-Find (서로소집합)
 - [ ] Floyd-Warshall (플로이드 와샬)
 - [ ] Knapsack (배낭문제)
 - [ ] Priority Queue (우선순위 큐)
