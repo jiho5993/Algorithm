@@ -8,46 +8,44 @@ using namespace std;
 #define all(x) (x).begin(), (x).end()
 
 typedef pair<int, int> pii;
+const int INF = 2e9;
+vector<pii> arr[20001];
+vector<int> dist(20001, INF);
+int V, E, st;
 
-vector<vector<pii> > adj(20001);
-int v, e, st;
-int dist[20001];
-
-void dij(int src) {
-    priority_queue<pii, vector<pii>, greater<pii> > pq;
-    fill(dist, dist+20001, 2e9);
-    dist[src] = 0;
-    pq.push({0, src});
-    while(!pq.empty()) {
-        int cost = pq.top().first;
-        int here = pq.top().second;
-        pq.pop();
-        if(dist[here] < cost) continue;
-        for(auto i : adj[here]) {
-            int there = i.first;
-            int new_cost = i.second + cost;
-            if(dist[there] > new_cost) {
-                dist[there]  = new_cost;
-                pq.push({new_cost, there});
-            }
-        }
+void dij() {
+  dist[st] = 0;
+  priority_queue<pii, vector<pii>, greater<pii> > pq; // min heap을 사용
+  pq.push({0, st}); // {가중치, 정점} 이 순서대로 넣어야 가장 작은 경로를 가진 정점이 나오도록 하기 위해
+  while(!pq.empty()) {
+    int tmp = pq.top().second;
+    int cst = pq.top().first;
+    pq.pop();
+    if(dist[tmp] < cst) continue;
+    for(auto i:arr[tmp]) {
+      int nxt = i.first;
+      int nc = i.second + cst;
+      if(dist[nxt] > nc) {
+        dist[nxt] = nc;
+        pq.push({nc, nxt});
+      }
     }
+  }
+  for(int i=1; i<=V; i++) {
+    if(dist[i] == INF) cout << "INF\n";
+    else cout << dist[i] << '\n';
+  }
 }
 
 int main() {
-  ios_base::sync_with_stdio(false), cin.tie(0);
+  ios_base::sync_with_stdio(false), cin.tie(nullptr);
 
-  cin >> v >> e >> st;
-    for(int i=0; i<e; i++) {
-        int v1, v2, cost;
-        cin >> v1 >> v2 >> cost;
-        adj[v1].pb({v2, cost});
-    }
-    dij(st);
-    for(int i=1; i<=v; i++) {
-        if(dist[i] == 2e9) cout << "INF\n";
-        else cout << dist[i];
-    }
-
+  cin >> V >> E >> st;
+  for(int i=0; i<E; i++) {
+    int a, b, c; cin >> a >> b >> c;
+    arr[a].pb({b, c});
+  }
+  dij();
+  
   return 0;
 }
