@@ -2,8 +2,8 @@
 
 ## TODO
 ### GOLD
-- [X] Dijkstra (다익스트라)
-- [X] Disjoint Set | Union-Find (서로소집합)
+- [X] [Dijkstra (다익스트라)][https://github.com/jiho5993/Algorithm/blob/master/dijkstra/dijkstra.cpp]
+- [X] [Disjoint Set | Union-Find (서로소집합)][https://github.com/jiho5993/Algorithm/blob/master/Union-Find/Union_Find.cpp]
 - [ ] Floyd-Warshall (플로이드 와샬)
 - [ ] Knapsack (배낭문제)
 - [ ] Priority Queue (우선순위 큐)
@@ -12,7 +12,7 @@
 - [ ] Bellman-Ford (벨만포드)
 ### PLATINUM
 - [ ] Bitmask (비트마스크)
-- [X] Segment Tree (세그먼트 트리)
+- [X] [Segment Tree (세그먼트 트리)][https://github.com/jiho5993/Algorithm/blob/master/Segment%20Tree/SegmentTree.cpp]
 - [ ] Divide and Conquer (분할정복)
 - [ ] Lowest Common Anscestor (최소공통조상)
 - [ ] Minimum Cost Maximum Flow (최대유량)
@@ -37,7 +37,7 @@
 - [ ]  Euler Tour (오일러 경로)
 - [ ] BiConnected Component (이중 연결 요소)
 ### DIAMOND
-- [X] Segment Tree w/ Lazy Propagation (느린갱신 세그먼트 트리)
+- [X] [Segment Tree w/ Lazy Propagation (느린갱신 세그먼트 트리)][https://github.com/jiho5993/Algorithm/blob/master/Segment%20Tree/lazy_propagation.cpp]
 - [ ] Convex Hull Trick (볼록 껍질성 최적화)
 - [ ] Fast Fourier Transform (고속 푸리에 변환)
 - [ ] Square Root Decomposition (제곱근 분할정복)
