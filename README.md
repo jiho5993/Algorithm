@@ -5,6 +5,8 @@
 - [X] [Dijkstra (다익스트라)][dijkstra]
 - [X] [Disjoint Set | Union-Find (서로소집합)][union_find]
 - [X] [Floyd-Warshall (플로이드 와샬)][floyd_warshall]
+- [X] [Sieve of Eratosthenes (에라토스테네스의 체)][Sieve_of_Eratosthenes]
+- [X] [Tree Traversal (트리 순회)][Tree_Traversal]
 - [ ] Knapsack (배낭문제)
 - [ ] Priority Queue (우선순위 큐)
 - [ ] Minimum Spanning Tree (최소신장트리)
@@ -66,3 +68,5 @@
 [segment_tree]: https://github.com/jiho5993/Algorithm/blob/master/Segment%20Tree/SegmentTree.cpp
 [lazy_propagation]: https://github.com/jiho5993/Algorithm/blob/master/Segment%20Tree/lazy_propagation.cpp
 [floyd_warshall]: https://github.com/jiho5993/Algorithm/blob/master/Floyd%20Warshall/Floyd_Warshall.cpp
+[Sieve_of_Eratosthenes]: https://github.com/jiho5993/Algorithm/blob/master/Sieve%20of%20Eratosthenes/eratos.cpp
+[Tree_Traversal]: https://github.com/jiho5993/Algorithm/blob/master/Tree%20Traversal/Tree_Traversal.cpp
