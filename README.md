@@ -4,7 +4,7 @@
 - [ ] Bubble Sort (버블 정렬)
 - [X] [Stack (스택)][stack]
 - [X] [Queue (큐)][queue]
-- [ ] Deque (덱)
+- [X] [Deque (덱)][deque]
 - [ ] Breadth First Search (BFS 너비우선탐색)
 - [ ] Depth First Search (DFS 깊이우선탐색)
 ### GOLD
@@ -80,3 +80,4 @@
 [Tree_Traversal]: https://github.com/jiho5993/Algorithm/blob/master/Tree%20Traversal/Tree_Traversal.cpp
 [stack]: https://github.com/jiho5993/Algorithm/blob/master/Stack/Stack.cpp
 [queue]: https://github.com/jiho5993/Algorithm/blob/master/Queue/Queue.cpp
+[deque]: https://github.com/jiho5993/Algorithm/blob/master/Deque/Deque.cpp
