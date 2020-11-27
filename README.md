@@ -1,13 +1,20 @@
 # Algorithm
 
 ### SILVER
+- [ ] Bubble Sort (버블 정렬)
 - [X] [Stack (스택)][stack]
+- [X] [Queue (큐)][queue]
+- [ ] Deque (덱)
+- [ ] Breadth First Search (BFS 너비우선탐색)
+- [ ] Depth First Search (DFS 깊이우선탐색)
 ### GOLD
 - [X] [Dijkstra (다익스트라)][dijkstra]
 - [X] [Disjoint Set | Union-Find (서로소집합)][union_find]
 - [X] [Floyd-Warshall (플로이드 와샬)][floyd_warshall]
 - [X] [Sieve of Eratosthenes (에라토스테네스의 체)][Sieve_of_Eratosthenes]
 - [X] [Tree Traversal (트리 순회)][Tree_Traversal]
+- [ ] Merge Sort (합병 정렬)
+- [ ] Quick Sort (퀵 정렬)
 - [ ] Knapsack (배낭문제)
 - [ ] Priority Queue (우선순위 큐)
 - [ ] Minimum Spanning Tree (최소신장트리)
@@ -17,10 +24,10 @@
 - [ ] Bitmask (비트마스크)
 - [X] [Segment Tree (세그먼트 트리)][segment_tree]
 - [ ] Divide and Conquer (분할정복)
-- [ ] Lowest Common Anscestor (최소공통조상)
+- [ ] Lowest Common Ancestor (최소공통조상)
 - [ ] Minimum Cost Maximum Flow (최대유량)
 - [ ] Minimum Cut Maximum Flow (최소컷)
-- [ ] Biparite Matching (이분매칭)
+- [ ] Bipartite Matching (이분매칭)
 - [ ] Strongly Connected Component (강한 연결 요소)
 - [ ] Hashing (해싱)
 - [ ] Convex Hull (볼록 껍질)
@@ -72,3 +79,4 @@
 [Sieve_of_Eratosthenes]: https://github.com/jiho5993/Algorithm/blob/master/Sieve%20of%20Eratosthenes/eratos.cpp
 [Tree_Traversal]: https://github.com/jiho5993/Algorithm/blob/master/Tree%20Traversal/Tree_Traversal.cpp
 [stack]: https://github.com/jiho5993/Algorithm/blob/master/Stack/Stack.cpp
+[queue]: https://github.com/jiho5993/Algorithm/blob/master/Queue/Queue.cpp
