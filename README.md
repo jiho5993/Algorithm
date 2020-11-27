@@ -1,6 +1,7 @@
 # Algorithm
 
-## TODO
+### SILVER
+- [X] [Stack (스택)][stack]
 ### GOLD
 - [X] [Dijkstra (다익스트라)][dijkstra]
 - [X] [Disjoint Set | Union-Find (서로소집합)][union_find]
@@ -70,3 +71,4 @@
 [floyd_warshall]: https://github.com/jiho5993/Algorithm/blob/master/Floyd%20Warshall/Floyd_Warshall.cpp
 [Sieve_of_Eratosthenes]: https://github.com/jiho5993/Algorithm/blob/master/Sieve%20of%20Eratosthenes/eratos.cpp
 [Tree_Traversal]: https://github.com/jiho5993/Algorithm/blob/master/Tree%20Traversal/Tree_Traversal.cpp
+[stack]: https://github.com/jiho5993/Algorithm/blob/master/Stack/Stack.cpp
