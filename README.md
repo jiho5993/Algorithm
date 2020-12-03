@@ -14,7 +14,7 @@
 - [X] [Sieve of Eratosthenes (에라토스테네스의 체)][Sieve_of_Eratosthenes]
 - [X] [Tree Traversal (트리 순회)][Tree_Traversal]
 - [X] [Merge Sort (합병 정렬)][merge_sort]
-- [ ] Quick Sort (퀵 정렬)
+- [X] [Quick Sort (퀵 정렬)][quick_sort]
 - [ ] Knapsack (배낭문제)
 - [ ] Priority Queue (우선순위 큐)
 - [ ] Minimum Spanning Tree (최소신장트리)
@@ -83,3 +83,4 @@
 [deque]: https://github.com/jiho5993/Algorithm/blob/master/Deque/Deque.cpp
 [bubble_sort]: https://github.com/jiho5993/Algorithm/blob/master/Sort/Bubble_Sort.cpp
 [merge_sort]: https://github.com/jiho5993/Algorithm/blob/master/Sort/Merge_Sort.cpp
+[quick_sort]: https://github.com/jiho5993/Algorithm/blob/master/Sort/Quick_Sort.cpp
