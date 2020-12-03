@@ -1,7 +1,7 @@
 # Algorithm
 
 ### SILVER
-- [ ] Bubble Sort (버블 정렬)
+- [X] [Bubble Sort (버블 정렬)][bubble_sort]
 - [X] [Stack (스택)][stack]
 - [X] [Queue (큐)][queue]
 - [X] [Deque (덱)][deque]
@@ -81,3 +81,4 @@
 [stack]: https://github.com/jiho5993/Algorithm/blob/master/Stack/Stack.cpp
 [queue]: https://github.com/jiho5993/Algorithm/blob/master/Queue/Queue.cpp
 [deque]: https://github.com/jiho5993/Algorithm/blob/master/Deque/Deque.cpp
+[bubble_sort]: https://github.com/jiho5993/Algorithm/blob/master/Sort/Bubble_Sort.cpp
