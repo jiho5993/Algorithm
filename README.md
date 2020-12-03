@@ -13,7 +13,7 @@
 - [X] [Floyd-Warshall (플로이드 와샬)][floyd_warshall]
 - [X] [Sieve of Eratosthenes (에라토스테네스의 체)][Sieve_of_Eratosthenes]
 - [X] [Tree Traversal (트리 순회)][Tree_Traversal]
-- [ ] Merge Sort (합병 정렬)
+- [X] [Merge Sort (합병 정렬)][merge_sort]
 - [ ] Quick Sort (퀵 정렬)
 - [ ] Knapsack (배낭문제)
 - [ ] Priority Queue (우선순위 큐)
@@ -82,3 +82,4 @@
 [queue]: https://github.com/jiho5993/Algorithm/blob/master/Queue/Queue.cpp
 [deque]: https://github.com/jiho5993/Algorithm/blob/master/Deque/Deque.cpp
 [bubble_sort]: https://github.com/jiho5993/Algorithm/blob/master/Sort/Bubble_Sort.cpp
+[merge_sort]: https://github.com/jiho5993/Algorithm/blob/master/Sort/Merge_Sort.cpp
