@@ -37,7 +37,7 @@
 - [ ] Sprague-Grundy theroem (스프라그-그런디 정리)
 - [ ] 2-SAT (이건 충족 가능성)
 - [ ] Binary Search Tree (이진 탐색 트리)
-- [ ] Fenwick Tree (펜윅 트리)
+- [X] [Fenwick Tree (펜윅 트리)][https://github.com/jiho5993/Algorithm/blob/master/Fenwick%20Tree/FenwickTree.cpp]
 - [ ] Mo's (모스 알고리즘)
 - [ ] Longest Common Pre/Suffix (접미/두사 배열)
 - [ ] Rotating Calipers (회전하는 캘리퍼스)
