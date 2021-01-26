@@ -5,8 +5,8 @@
 - [X] [Stack (스택)][stack]
 - [X] [Queue (큐)][queue]
 - [X] [Deque (덱)][deque]
-- [ ] Breadth First Search (BFS 너비우선탐색)
-- [ ] Depth First Search (DFS 깊이우선탐색)
+- [X] [Breadth First Search (BFS 너비우선탐색)][breadth_first_search]
+- [X] [Depth First Search (DFS 깊이우선탐색)][depth_first_search]
 ### GOLD
 - [X] [Dijkstra (다익스트라)][dijkstra]
 - [X] [Disjoint Set | Union-Find (서로소집합)][union_find]
@@ -85,3 +85,5 @@
 [merge_sort]: https://github.com/jiho5993/Algorithm/blob/master/Sort/Merge_Sort.cpp
 [quick_sort]: https://github.com/jiho5993/Algorithm/blob/master/Sort/Quick_Sort.cpp
 [fenwick_tree]: https://github.com/jiho5993/Algorithm/blob/master/Fenwick%20Tree/FenwickTree.cpp
+[breadth_first_search]: https://github.com/jiho5993/Algorithm/blob/master/Tree%20Traversal/Breadth_First_Search.cpp
+[depth_first_search]: https://github.com/jiho5993/Algorithm/blob/master/Tree%20Traversal/Depth_First_Search.cpp
